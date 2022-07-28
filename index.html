@@ -1,24 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Education Buddies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c185d7ed65.js" crossorigin="anonymous"></script>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Education Buddies</title>
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-            <link rel="stylesheet" href="styles.css">
-            <script src="https://kit.fontawesome.com/c185d7ed65.js" crossorigin="anonymous"></script>
     </head>
-
     <body>
         <header>
             <!-- navbar start -->
             <section class="container">
                 <nav class="navbar navbar-expand-lg bg-light">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#"><h1>Education Buddies</h1>
+                        <a class="navbar-brand" href="#"><h3>Education Buddies</h3>
                         </a>
                         <div class="d-flex justify-content-end">
                         <button class="navbar-toggler" type="button"
@@ -61,60 +58,50 @@
         <!-- navbar end -->
 
         <!-- Carousel start -->
-        <section>
-            <div class="container">
-                <div id="carouselExampleControls" class="carousel slide"
-                    data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="images/cover/cover-1.png" class="d-flex 
-                                w-100 img-fluid" alt="...">
-                            <div class=" carousel-caption ">
-                                <h1>Get Started Digital <br>
-                                    Learning</h1>
-                                <p>It is a long established fact that a reader
-                                    will be distracted by the readable
-                                    content of a page when looking at its
-                                    layout.</p>
-                                <button class="btn btn-primary">Get Started</button>
-                            </div>
-                        </div>
-                        <div class="carousel-item active">
-                            <img src="images/cover/cover-3.jpg" class="d-block
-                            w-100" alt="...">
-                            <div class="carousel-caption ">
-                                <h1>Get Started Digital</h1>
-                                <p>It is a long established fact that a reader
-                                    will be distracted by the readable
-                                    content of a page when looking at its
-                                    layout.</p>
-                                <button class="btn btn-primary"> Get Started</button>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button"
-                            data-bs-target="#carouselExampleControls"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"
-                                aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button"
-                            data-bs-target="#carouselExampleControls"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon"
-                                aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+        <section class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block mb-0 ">
+                  <h5 class="">Get Started Digital 
+                   <br> Learning</h5>
+                  <p>Develop your skills & inspire your students. Join Get Inspired</p>
+                  <button class="btn btn-primary">Get Started</button>
                 </div>
-            </section>
+              </div>
+              <div class="carousel-item">
+                <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                  <h5>Develop Your 
+                    <br> Skills</h5>
+                  <p> Set goals for yourself Find a mentor Seek feedback.</p>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
             <!-- Carousel end -->
         </header>
         <main>
             <!-- another text start -->
             <div class="card text-center mt-5 border border-0">
                 <div class="card-body ">
-                  <h2 class="card-title">Discover Our Popular  Courses</h2>
+                  <h4 class="card-title">Discover Our Popular  Courses</h4>
                   <p class="card-text">It is a long established fact that a reader 
                     will be distracted by the readable content <br>
                     of a page when looking at its layout.</p>
@@ -187,7 +174,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-12">
-                                <div class="card d-sm-none d-md-block mt-4">
+                                <div class="card  mt-4">
                                     <div class="row">
                                         <div class="col-md-4 ">
                                             <img
@@ -207,7 +194,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-12">
-                                <div class="card d-sm-none d-md-block  mt-4">
+                                <div class="card mt-4">
                                     <div class="row">
                                         <div class="col-md-4 ">
                                             <img
@@ -227,7 +214,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-12">
-                                <div class="card d-sm-none d-md-block mt-4">
+                                <div class="card mt-4">
                                     <div class="row">
                                         <div class="col-md-4 ">
                                             <img
@@ -291,6 +278,9 @@
                               <small>Rating and Review</small>
                                     </div>
                                 </div>
+                                <div>
+                                    <button class="btn btn-primary mt-5">Read More</button>
+                                </div>
                             </div>
                             </div>
                           </div>
@@ -301,33 +291,32 @@
             <!-- elearning end -->
              <!-- optional work start-->
             <section>
-                <div class="">
-               <div class="container">
-                <div class="card bg-primary" >
-                    <div class="card-body d-flex">
-                        <div class="col-lg-6 col-md-12 col-sm-12">
-                      <h5 class="card-title">Ready to join?</h5>
-                      <p class="card-text">It is a long established fact that a reader will be distracted by the 
-                        readable content of a page when looking at its layout</p>
+                <div class="container ">
+                    <div class="row ">
+                        <div class="card py-5 d-flex flex-lg-row align-items-center justify-content-around bg-primary text-light">
+                            <div class="">
+                                <h1>Ready to join?</h1>
+                                <p>Are you excited to join our organised cources.</p>
+                            </div>
+                            <div class="col-2">
+                                <button class="bg-light
+                                 text-primary rounded">Register</button>
+            
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12">
-                      <button class="btn btn-light">submit</button>
-                    </div>
-                    </div>
-                  </div>
-               </div>
-            </div>
+                </div>
             </section>
              <!-- optional work end-->
             <section>
-                <div class="container ">
-                    <div class="col-lg-5 col-md-8">
-                    <h1 >Meet Our Successfull 
-                        Students</h1>
-                        <p>It is a long established fact that a reader will be distracted by the 
-                            readable content of a page when looking at its layout</p>
-                        </div>
-                </div>
+                <div class="card text-center container border border-0">
+                    <div class="card-body col-lg-4">
+                      <h2 class="card-title col-sm-12">Meet Our Successfull Students</h2>
+                      <p class="card-text">There are many variations of passages of 
+                        Lorem Ipsum available, but the majority 
+                        have suffered alteration.</p>
+                    </div>
+                  </div>
                 <div class="container">
                     <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
                         <div class="col d-sm-none d-md-block">
@@ -442,20 +431,7 @@
                       </div>
                 </div>
             </section>
-               <section class="container d-sm-none d-md-block mt-5">
-                <div>
-                    <h1 class="d-flex justify-content-center">Trusted by over 800+ companies</h1>
-
-                </div>
-                <div class=" mt-5 d-flex justify-content-between">
-                    <img class="h-75" src="images/company/company-1.png" alt="">
-                    <img class="h-75" src="images/company/company-2.png" alt="">
-                    <img class="h-75" src="images/company/company-3.png" alt="">
-                    <img class="h-75" src="images/company/company-4.png" alt="">
-                    <img class="h-75" src="images/company/company-5.png" alt="">
-                    <img class="h-75" src="images/company/company-6.png" alt="">
-                </div>
-               </section>
+            
         </main>
         <footer>
             <div class="pt-5 pb-5 bg-dark text-white mt-5" id="last-footer">
@@ -472,8 +448,7 @@
             </div>
         </footer>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
 
 </html>
