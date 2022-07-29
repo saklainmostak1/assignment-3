@@ -284,20 +284,41 @@
              <!-- optional work start-->
             <section>
                 <div class="container mt-5">
-                    <div class="row ">
+                    <div class="row">
                         <div class="card py-5 d-flex flex-lg-row align-items-center justify-content-around bg-primary text-light">
-                            <div class="">
+                        <div>
                                 <h1>Ready to join?</h1>
                                 <p>Are you excited to join our organised cources.</p>
                             </div>
+                            <div>
                             <div class="col-2">
-                                <button class="bg-light
-                                 text-primary rounded">Register</button>
-            
+                                <button type="button" class="bg-white
+                                 text-primary rounded border border-0 py-2 px-2 fw-bolder" data-bs-toggle="modal" data-bs-target="#button">Register</button>
+                                </div>
+                            <div class="modal" id="button" aria-labelledby="buttonLabel">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <form>
+                                                 <label for="inputPassword" class="form-label">Password</label>
+                                                 <input type="password" id="inputPassword" aria-describedby="passwordHelpBlock">
+                                                <div id="passwordHelpBlock" class="form-text">
+                                                 Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                                                    </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-info text-white">Submit</button>
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">close</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                </div>
+          
             </section>
              <!-- optional work end-->
              <!-- Successfull student start -->
